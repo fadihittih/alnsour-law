@@ -64,7 +64,7 @@
 
   /* attorney */
   .attorney{display:grid;grid-template-columns:220px 1fr;gap:44px;align-items:center}
-  .portrait{aspect-ratio:3/4;background:linear-gradient(160deg,var(--navy-2),var(--navy));border-radius:6px;display:grid;place-items:center;color:var(--gold-soft);font-size:4rem;font-family:"Amiri",serif;border:1px solid var(--gold)}
+  .portrait{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center top;background:#fff;border-radius:6px;border:1px solid var(--gold);box-shadow:12px 12px 0 -1px var(--gold-soft)}
   .attorney h3{font-size:1.6rem;color:var(--navy)}
   .attorney .role{color:var(--gold);font-weight:600;margin-bottom:14px}
 
@@ -168,7 +168,7 @@
 
 <section class="alt" id="attorney">
   <div class="wrap attorney">
-    <div class="portrait" aria-hidden="true">ش</div>
+    <img class="portrait" src="sharihan.webp" alt="المحامية شريهان النسور | Attorney Sharihan Al Nsour" width="220" height="293">
     <div>
       <div class="eyebrow"><span lang="ar">المحامية المسؤولة</span><span lang="en">Managing Attorney</span></div>
       <h3><span lang="ar" class="serif-ar">المحامية شريهان النسور</span><span lang="en" class="serif-en">Attorney Sharihan Al Nsour</span></h3>
